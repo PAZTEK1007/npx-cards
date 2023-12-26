@@ -1,0 +1,23 @@
+{
+    "name": "@paz_tek/card",
+    "version": "1.0.1",
+    "author": "Barbier Mathias AKA PAZTEK",
+    "description": "My awesome npx card",
+    "main": "bin/card.js",
+    "scripts": {
+        "start": "node build.js"
+    },
+    "modules": "esm",
+    "bin": {
+        "card": "./bin/card.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+"
+    },
+    "keywords": [
+        "npx",
+        "paztek"
+    ],
+    "license": "MIT"
+}
